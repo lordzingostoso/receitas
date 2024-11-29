@@ -1,0 +1,301 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #56b35e;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Seção de destaque */
+.destaque {
+    text-align: center;
+    padding: 50px;
+    background-color: #e1f7d5;
+}
+
+.destaque img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.destaque p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Estilo de receitas */
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article figure img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+article ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo de dicas */
+.dicas article {
+    margin-bottom: 30px;
+}
+
+.dicas h2 {
+    font-size: 22px;
+    color: #56b35e;
+}
+
+/* Estilo do formulário de contato */
+.contato form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contato label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.contato input, .contato textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contato button {
+    padding: 10px;
+    background-color: #56b35e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background-color: #4c9d4c;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .social-links a:hover {
+    color: #ffcc00;
+}
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e Layout geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.receitas-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Artigo de cada receita */
+.receita {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagens das receitas */
+.img-receita {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.voltar-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Footer
+/* Página de receita individual */
+.receita-detalhada {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.receita-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.receita-container figure {
+    flex: 1 1 40%;
+    max-width: 45%;
+    text-align: center;
+}
+
+.receita-container .ingredientes-preparo {
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+h1, h2 {
+    color: #2e8b57;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+ul, ol {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+.img-receita {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.voltar-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.voltar-btn .btn {
+    padding: 10px 20px;
+    background-color: #2e8b57;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.voltar-btn .btn:hover {
+    background-color: #1f6b42;
+}
